@@ -16,8 +16,8 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 | Status | Count |
 |--------|-------|
-| Solved | 7     |
-| Pending | 13    |
+| Solved | 8     |
+| Pending | 12    |
 | Total | 20    |
 
 ### Problem Sheet
@@ -76,11 +76,11 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 #### Sorting / HashSet (3 Problems)
 
-| # | Problem | Difficulty | Status | Link |
-|---|---------|------------|--------|------|
+| # | Problem | Difficulty | Status  | Link |
+|---|---------|------------|---------|------|
 | 18 | Contains Duplicate | Easy | Pending | [LeetCode #217](https://leetcode.com/problems/contains-duplicate/) |
 | 19 | Contains Duplicate II | Easy | Pending | [LeetCode #219](https://leetcode.com/problems/contains-duplicate-ii/) |
-| 20 | 3Sum | Medium | Pending | [LeetCode #15](https://leetcode.com/problems/3sum/) |
+| 20 | 3Sum | Medium | Done    | [LeetCode #15](https://leetcode.com/problems/3sum/) |
 
 ---
 
