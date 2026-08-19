@@ -3,14 +3,14 @@
 A structured DSA practice repository — solving LeetCode problems topic-wise with Java implementations.
 
 ![Language](https://img.shields.io/badge/Language-Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Progress](https://img.shields.io/badge/Week%201-0%2F20%20Solved-orange?style=flat)
+![Progress](https://img.shields.io/badge/Total-3%2F32%20Solved-orange?style=flat)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy%20%7C%20Medium-blueviolet?style=flat)
 
 ---
 
 ## Week 1 — DSA Cheatsheet
 
-> 20 problems across 8 algorithm patterns. Updated weekly.
+> 20 problems across 8 algorithm patterns.
 
 ### Progress
 
@@ -19,8 +19,6 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 | Solved | 0 |
 | Pending | 20 |
 | Total | 20 |
-
----
 
 ### Problem Sheet
 
@@ -83,6 +81,58 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 | 18 | Contains Duplicate | Easy | Pending | [LeetCode #217](https://leetcode.com/problems/contains-duplicate/) |
 | 19 | Contains Duplicate II | Easy | Pending | [LeetCode #219](https://leetcode.com/problems/contains-duplicate-ii/) |
 | 20 | 3Sum | Medium | Pending | [LeetCode #15](https://leetcode.com/problems/3sum/) |
+
+---
+
+## Week 2 — String Cheat Sheet
+
+> 11 problems across 5 string patterns.
+
+### Progress
+
+| Status | Count |
+|--------|-------|
+| Solved | 3 |
+| Pending | 8 |
+| Total | 11 |
+
+### Problem Sheet
+
+#### String Basics (2 Problems)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 1 | Reverse String | Easy | ✅ Solved | [LeetCode #344](https://leetcode.com/problems/reverse-string/) |
+| 2 | First Unique Character in a String | Easy | Pending | [LeetCode #387](https://leetcode.com/problems/first-unique-character-in-a-string/) |
+
+#### Palindrome (3 Problems)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 3 | Valid Palindrome | Easy | ✅ Solved | [LeetCode #125](https://leetcode.com/problems/valid-palindrome/) |
+| 4 | Valid Palindrome II | Easy | Pending | [LeetCode #680](https://leetcode.com/problems/valid-palindrome-ii/) |
+| 5 | Palindrome Number | Easy | Pending | [LeetCode #9](https://leetcode.com/problems/palindrome-number/) |
+
+#### Anagram (2 Problems)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 6 | Valid Anagram | Easy | Pending | [LeetCode #242](https://leetcode.com/problems/valid-anagram/) |
+| 7 | Group Anagrams | Medium | Pending | [LeetCode #49](https://leetcode.com/problems/group-anagrams/) |
+
+#### Substring (2 Problems)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 8 | Longest Substring Without Repeating Characters | Medium | ✅ Solved | [LeetCode #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| 9 | Longest Common Prefix | Easy | Pending | [LeetCode #14](https://leetcode.com/problems/longest-common-prefix/) |
+
+#### Pattern Matching (2 Problems)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 10 | Find the Index of the First Occurrence in a String | Easy | Pending | [LeetCode #28](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) |
+| 11 | Repeated Substring Pattern | Easy | Pending | [LeetCode #459](https://leetcode.com/problems/repeated-substring-pattern/) |
 
 ---
 
@@ -160,6 +210,33 @@ Space:      O(1) or O(n)
 Use when:   Duplicate detection, triplet finding
 ```
 
+### String Traversal
+
+```
+Pattern:    Iterate char by char, build result or compare
+Time:       O(n)
+Space:      O(1) or O(n) for result
+Use when:   Character manipulation, prefix/suffix checks
+```
+
+### Frequency Counting (Chars)
+
+```
+Pattern:    int[] freq = new int[26]; freq[c - 'a']++
+Time:       O(n)
+Space:      O(1) — fixed 26-size array
+Use when:   Anagram check, character counting, unique chars
+```
+
+### Pattern Matching (KMP Basics)
+
+```
+Pattern:    Build LPS array, then match without re-scanning
+Time:       O(n + m)
+Space:      O(m) for LPS array
+Use when:   Substring search, pattern occurrence
+```
+
 ---
 
 ## File Naming Convention
@@ -173,7 +250,12 @@ src/
 ├── Variable_Sliding_Window/
 ├── Prefix_Sum_HashMap/
 ├── Kadanes_Algorithm/
-└── Sorting_HashSet/
+├── Sorting_HashSet/
+├── String_Basics/
+├── Palindrome/
+├── Anagram/
+├── Substring/
+└── Pattern_Matching/
 ```
 
 ---
@@ -187,4 +269,4 @@ src/
 
 ---
 
-*Last updated: Week 1 — DSA Practice Sheet*
+*Last updated: Week 2 — String Cheat Sheet*
