@@ -16,9 +16,9 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 | Status | Count |
 |--------|-------|
-| Solved | 0 |
-| Pending | 20 |
-| Total | 20 |
+| Solved | 5     |
+| Pending | 15    |
+| Total | 20    |
 
 ### Problem Sheet
 
