@@ -16,8 +16,8 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 | Status | Count |
 |--------|-------|
-| Solved | 5     |
-| Pending | 15    |
+| Solved | 6     |
+| Pending | 14    |
 | Total | 20    |
 
 ### Problem Sheet
@@ -26,25 +26,25 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 | # | Problem | Difficulty | Status | Link |
 |---|---------|------------|--------|------|
-| 1 | Find Numbers with Even Number of Digits | Easy | Pending | [LeetCode #1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) |
-| 2 | Largest Number At Least Twice of Others | Easy | Pending | [LeetCode #747](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) |
+| 1 | Find Numbers with Even Number of Digits | Easy | Done   | [LeetCode #1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) |
+| 2 | Largest Number At Least Twice of Others | Easy | Done   | [LeetCode #747](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) |
 
 #### Prefix Sum (3 Problems)
 
-| # | Problem | Difficulty | Status | Link |
-|---|---------|------------|--------|------|
-| 3 | Find Pivot Index | Easy | Pending | [LeetCode #724](https://leetcode.com/problems/find-pivot-index/) |
+| # | Problem | Difficulty | Status  | Link |
+|---|---------|------------|---------|------|
+| 3 | Find Pivot Index | Easy | Done    | [LeetCode #724](https://leetcode.com/problems/find-pivot-index/) |
 | 13 | Running Sum of 1d Array | Easy | Pending | [LeetCode #1480](https://leetcode.com/problems/running-sum-of-1d-array/) |
 | 14 | Range Sum Query — Immutable | Easy | Pending | [LeetCode #303](https://leetcode.com/problems/range-sum-query-immutable/) |
 
 #### Two Pointers (4 Problems)
 
-| # | Problem | Difficulty | Status | Link |
-|---|---------|------------|--------|------|
-| 4 | Two Sum II — Input Array Is Sorted | Easy | Pending | [LeetCode #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
-| 5 | Valid Palindrome | Easy | Pending | [LeetCode #125](https://leetcode.com/problems/valid-palindrome/) |
-| 6 | Reverse String | Easy | Pending | [LeetCode #344](https://leetcode.com/problems/reverse-string/) |
-| 7 | Squares of a Sorted Array | Easy | Pending | [LeetCode #977](https://leetcode.com/problems/squares-of-a-sorted-array/) |
+| # | Problem | Difficulty | Status  | Link |
+|---|---------|------------|---------|------|
+| 4 | Two Sum II — Input Array Is Sorted | Done       | Pending | [LeetCode #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
+| 5 | Valid Palindrome | Easy       | Done    | [LeetCode #125](https://leetcode.com/problems/valid-palindrome/) |
+| 6 | Reverse String | Easy       | Pending | [LeetCode #344](https://leetcode.com/problems/reverse-string/) |
+| 7 | Squares of a Sorted Array | Easy       | Pending | [LeetCode #977](https://leetcode.com/problems/squares-of-a-sorted-array/) |
 
 #### Fixed Sliding Window (2 Problems)
 
