@@ -6,11 +6,14 @@ public class Vaild_Palindrome {
         int right = s.length() - 1;
 
         while(left < right){
-            while(!Character.isLetterOrDigit(s.charAt(left))){
+            while( left < right && !Character.isLetterOrDigit(s.charAt(left))){
                 left ++;
             }
-            while(!Character.isLetterOrDigit(s.charAt(right))){
+            while( left < right &&  !Character.isLetterOrDigit(s.charAt(right))){
                 right --;
+            }
+            if (left > right) {
+                return true;
             }
 
             if (Character.toLowerCase(s.charAt(left)) !=
@@ -23,6 +26,7 @@ public class Vaild_Palindrome {
             right--;
         }
         return true;
+
 
     }
     public static void main(String[] args) {
