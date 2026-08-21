@@ -13,7 +13,7 @@ public class Square_Of_Sorted_array {
         int[] res = new int[n];
         int position = n - 1;
 
-        while(left < right){
+        while(left <= right){
             int left_square = nums[left] * nums[left];
             int right_square = nums[right] * nums[right];
 
