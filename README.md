@@ -16,8 +16,8 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 | Status | Count |
 |--------|-------|
-| Solved | 8     |
-| Pending | 12    |
+| Solved | 9     |
+| Pending | 11    |
 | Total | 20    |
 
 ### Problem Sheet
@@ -39,12 +39,12 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 #### Two Pointers (4 Problems)
 
-| # | Problem | Difficulty | Status  | Link |
-|---|---------|------------|---------|------|
-| 4 | Two Sum II — Input Array Is Sorted | Easy       | Done    | [LeetCode #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
-| 5 | Valid Palindrome | Easy       | Done    | [LeetCode #125](https://leetcode.com/problems/valid-palindrome/) |
-| 6 | Reverse String | Easy       | Done    | [LeetCode #344](https://leetcode.com/problems/reverse-string/) |
-| 7 | Squares of a Sorted Array | Easy       | Pending | [LeetCode #977](https://leetcode.com/problems/squares-of-a-sorted-array/) |
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 4 | Two Sum II — Input Array Is Sorted | Easy       | Done   | [LeetCode #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
+| 5 | Valid Palindrome | Easy       | Done   | [LeetCode #125](https://leetcode.com/problems/valid-palindrome/) |
+| 6 | Reverse String | Easy       | Done   | [LeetCode #344](https://leetcode.com/problems/reverse-string/) |
+| 7 | Squares of a Sorted Array | Easy       | Done   | [LeetCode #977](https://leetcode.com/problems/squares-of-a-sorted-array/) |
 
 #### Fixed Sliding Window (2 Problems)
 
