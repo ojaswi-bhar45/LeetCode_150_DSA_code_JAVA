@@ -136,6 +136,61 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 ---
 
+## Week 3 — Backtracking Cheat Sheet
+
+> 9 problems across 5 backtracking patterns.
+
+### Progress
+
+| Status | Count |
+|--------|-------|
+| Solved | 0     |
+| Pending | 9    |
+| Total | 9     |
+
+### Problem Sheet
+
+#### Take / Skip (1 Problem)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 1 | Subsets | Medium | Pending | [LeetCode #78](https://leetcode.com/problems/subsets/) |
+
+#### Start Index (1 Problem)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 2 | Combinations | Medium | Pending | [LeetCode #77](https://leetcode.com/problems/combinations/) |
+
+#### Used / Unused (1 Problem)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 3 | Permutations | Medium | Pending | [LeetCode #46](https://leetcode.com/problems/permutations/) |
+
+#### Backtracking (3 Problems)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 4 | Combination Sum | Medium | Pending | [LeetCode #39](https://leetcode.com/problems/combination-sum/) |
+| 5 | Letter Combinations of a Phone Number | Medium | Pending | [LeetCode #17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |
+| 6 | Generate Parentheses | Medium | Pending | [LeetCode #22](https://leetcode.com/problems/generate-parentheses/) |
+
+#### Handling Duplicates (2 Problems)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 7 | Subsets II | Medium | Pending | [LeetCode #90](https://leetcode.com/problems/subsets-ii/) |
+| 8 | Permutations II | Medium | Pending | [LeetCode #47](https://leetcode.com/problems/permutations-ii/) |
+
+#### Grid Backtracking (1 Problem)
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 9 | Word Search | Medium | Pending | [LeetCode #79](https://leetcode.com/problems/word-search/) |
+
+---
+
 ## Algorithm Patterns — Quick Reference
 
 ### Array Traversal
@@ -237,6 +292,15 @@ Space:      O(m) for LPS array
 Use when:   Substring search, pattern occurrence
 ```
 
+### Backtracking
+
+```
+Pattern:    Choose → Explore → Unchoose (recursive tree)
+Time:       O(2^n) for subsets, O(n!) for permutations
+Space:      O(n) recursion stack
+Use when:   Generate all combinations/permutations/subsets, constraint satisfaction
+```
+
 ---
 
 ## File Naming Convention
@@ -251,6 +315,7 @@ src/
 ├── Prefix_Sum_HashMap/
 ├── Kadanes_Algorithm/
 ├── Sorting_HashSet/
+├── Backtracking/
 ├── String_Basics/
 ├── Palindrome/
 ├── Anagram/
@@ -269,4 +334,4 @@ src/
 
 ---
 
-*Last updated: Week 2 — String Cheat Sheet*
+*Last updated: Week 3 — Backtracking Cheat Sheet*
