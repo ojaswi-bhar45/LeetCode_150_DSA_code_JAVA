@@ -48,9 +48,9 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 #### Fixed Sliding Window (2 Problems)
 
-| # | Problem | Difficulty | Status | Link |
-|---|---------|------------|--------|------|
-| 8 | Maximum Average Subarray I | Easy | Pending | [LeetCode #643](https://leetcode.com/problems/maximum-average-subarray-i/) |
+| # | Problem | Difficulty | Status  | Link |
+|---|---------|------------|---------|------|
+| 8 | Maximum Average Subarray I | Easy | Done    | [LeetCode #643](https://leetcode.com/problems/maximum-average-subarray-i/) |
 | 9 | Defuse the Bomb | Easy | Pending | [LeetCode #1652](https://leetcode.com/problems/defuse-the-bomb/) |
 
 #### Variable Sliding Window (3 Problems)
