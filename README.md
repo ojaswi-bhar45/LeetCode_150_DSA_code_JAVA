@@ -191,6 +191,83 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 ---
 
+## Week 4 — Linked List LeetCode Cheat Sheet
+
+> 13 problems across 6 linked list patterns.
+
+### Progress
+
+| Status  | Count |
+|---------|-------|
+| Solved  | 0     |
+| Pending | 13    |
+| Total   | 13    |
+
+### Problem Sheet
+
+#### Singly LL — Traversal (2 Problems)
+
+- **Pattern:** Visit every node — iterate `head → null`
+- **Practice focus:** Basic traversal, node/link manipulation
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 1 | Convert Binary Number in a Linked List to Integer | Easy | Pending | [LeetCode #1290](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) |
+| 2 | Delete Node in a Linked List | Medium | Pending | [LeetCode #237](https://leetcode.com/problems/delete-node-in-a-linked-list/) |
+
+#### Singly LL — Reversal (3 Problems)
+
+- **Pattern:** Reverse links with `prev → curr → next`
+- **Practice focus:** Core reversal, partial reversal, pointer manipulation
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 3 | Reverse Linked List | Easy | Pending | [LeetCode #206](https://leetcode.com/problems/reverse-linked-list/) |
+| 4 | Reverse Linked List II | Medium | Pending | [LeetCode #92](https://leetcode.com/problems/reverse-linked-list-ii/) |
+| 5 | Swap Nodes in Pairs | Medium | Pending | [LeetCode #24](https://leetcode.com/problems/swap-nodes-in-pairs/) |
+
+#### Singly LL — Cycle Detection (3 Problems)
+
+- **Pattern:** `slow` moves 1 step, `fast` moves 2 steps
+- **Practice focus:** Detect cycle, find cycle start, Floyd's algorithm variation
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 6 | Linked List Cycle | Easy | Pending | [LeetCode #141](https://leetcode.com/problems/linked-list-cycle/) |
+| 7 | Linked List Cycle II | Medium | Pending | [LeetCode #142](https://leetcode.com/problems/linked-list-cycle-ii/) |
+| 8 | Find the Duplicate Number | Medium | Pending | [LeetCode #287](https://leetcode.com/problems/find-the-duplicate-number/) |
+
+#### Singly LL — Merge (2 Problems)
+
+- **Pattern:** Two pointers → compare nodes, splice smaller
+- **Practice focus:** Merge pattern, advanced merge
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 9 | Merge Two Sorted Lists | Easy | Pending | [LeetCode #21](https://leetcode.com/problems/merge-two-sorted-lists/) |
+| 10 | Merge k Sorted Lists | Hard | Pending | [LeetCode #23](https://leetcode.com/problems/merge-k-sorted-lists/) |
+
+#### Singly LL — Remove Duplicates (2 Problems)
+
+- **Pattern:** Sorted list → compare adjacent nodes
+- **Practice focus:** Duplicate removal, remove all duplicate values
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 11 | Remove Duplicates from Sorted List | Easy | Pending | [LeetCode #83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) |
+| 12 | Remove Duplicates from Sorted List II | Medium | Pending | [LeetCode #82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |
+
+#### Singly LL — Middle (1 Problem)
+
+- **Pattern:** `slow` + `fast` → fast hits end, slow lands on middle
+- **Practice focus:** Find middle of the list
+
+| # | Problem | Difficulty | Status | Link |
+|---|---------|------------|--------|------|
+| 13 | Middle of the Linked List | Easy | Pending | [LeetCode #876](https://leetcode.com/problems/middle-of-the-linked-list/) |
+
+---
+
 ## Algorithm Patterns — Quick Reference
 
 ### Array Traversal
@@ -315,6 +392,7 @@ src/
 ├── Prefix_Sum_HashMap/
 ├── Kadanes_Algorithm/
 ├── Sorting_HashSet/
+├── Linked_List/
 ├── Backtracking/
 ├── String_Basics/
 ├── Palindrome/
@@ -334,4 +412,4 @@ src/
 
 ---
 
-*Last updated: Week 3 — Backtracking Cheat Sheet*
+*Last updated: Week 4 — Linked List LeetCode Cheat Sheet*
