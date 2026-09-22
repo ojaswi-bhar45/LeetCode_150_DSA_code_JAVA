@@ -16,8 +16,8 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 | Status | Count |
 |--------|-------|
-| Solved | 12    |
-| Pending | 8     |
+| Solved | 13    |
+| Pending | 7     |
 | Total | 20    |
 
 ### Problem Sheet
@@ -72,7 +72,7 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 | # | Problem | Difficulty | Status | Link |
 |---|---------|------------|--------|------|
 | 16 | Maximum Subarray | Medium | Done | [LeetCode #53](https://leetcode.com/problems/maximum-subarray/) |
-| 17 | Maximum Sum Circular Subarray | Medium | Pending | [LeetCode #918](https://leetcode.com/problems/maximum-sum-circular-subarray/) |
+| 17 | Maximum Sum Circular Subarray | Medium | Done | [LeetCode #918](https://leetcode.com/problems/maximum-sum-circular-subarray/) |
 
 #### Sorting / HashSet (3 Problems)
 
