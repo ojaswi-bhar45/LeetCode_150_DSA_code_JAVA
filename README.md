@@ -16,8 +16,8 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 
 | Status | Count |
 |--------|-------|
-| Solved | 9     |
-| Pending | 11    |
+| Solved | 10    |
+| Pending | 10    |
 | Total | 20    |
 
 ### Problem Sheet
@@ -34,7 +34,7 @@ A structured DSA practice repository — solving LeetCode problems topic-wise wi
 | # | Problem | Difficulty | Status  | Link |
 |---|---------|------------|---------|------|
 | 3 | Find Pivot Index | Easy | Done    | [LeetCode #724](https://leetcode.com/problems/find-pivot-index/) |
-| 13 | Running Sum of 1d Array | Easy | Pending | [LeetCode #1480](https://leetcode.com/problems/running-sum-of-1d-array/) |
+| 13 | Running Sum of 1d Array | Easy | Done | [LeetCode #1480](https://leetcode.com/problems/running-sum-of-1d-array/) |
 | 14 | Range Sum Query — Immutable | Easy | Pending | [LeetCode #303](https://leetcode.com/problems/range-sum-query-immutable/) |
 
 #### Two Pointers (4 Problems)
